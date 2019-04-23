@@ -14,6 +14,6 @@ public class TC0002  extends Common  {
 		Log.enterEmail("Robinsbhogal31@gmail.com");
 		Log.password("Password1");
 		Log.loginbutton();
-		Log.invalidcredentailsmessage();
-		Thread.sleep(10000);
+		//Log.invalidcredentailsmessage();
+		//Thread.sleep(10000);
 	}}
