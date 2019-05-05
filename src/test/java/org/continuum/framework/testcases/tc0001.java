@@ -14,7 +14,7 @@ import org.continuum.framework.pages.Login;
 public class tc0001 extends Common {
 
 	//Correct username & password & landed on correct page /
-	@Test
+	
 	public void tc1() throws InterruptedException
 	{
 		

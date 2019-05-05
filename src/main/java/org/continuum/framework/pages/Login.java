@@ -16,7 +16,8 @@ public class Login extends Myutils{
 	public void enterEmail(String emailname)
 	{
 	driver.findElement(By.xpath(rb.getString("Emailid_Xpath"))).sendKeys(emailname);
-		
+	
+	
 	}
 	
 	public void password(String Password)

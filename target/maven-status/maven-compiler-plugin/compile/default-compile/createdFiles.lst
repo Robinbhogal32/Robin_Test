@@ -1,0 +1,6 @@
+org\continuum\framework\pages\Login.class
+org\continuum\framework\base\Common.class
+org\continuum\framework\base\Myutils.class
+org\continuum\framework\pages\LandingPage.class
+org\continuum\framework\assertion\Check.class
+org\continuum\framework\utilities\TakeSnapshot.class

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDTSuite" duration-ms="109452" started-at="2019-05-05T05:52:13Z" finished-at="2019-05-05T05:54:02Z">
+    <groups>
+    </groups>
+    <test name="My TestNG Tests" duration-ms="109452" started-at="2019-05-05T05:52:13Z" finished-at="2019-05-05T05:54:02Z">
+      <class name="org.continuum.framework.testcases.TC0006">
+        <test-method status="PASS" signature="bmet()[pri:0, instance:org.continuum.framework.testcases.TC0006@6a5fc7f7]" name="bmet" is-config="true" duration-ms="17772" started-at="2019-05-05T05:53:15Z" finished-at="2019-05-05T05:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmet -->
+        <test-method status="PASS" signature="tC0006()[pri:0, instance:org.continuum.framework.testcases.TC0006@6a5fc7f7]" name="tC0006" duration-ms="29400" started-at="2019-05-05T05:53:33Z" finished-at="2019-05-05T05:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC0006 -->
+        <test-method status="PASS" signature="amet()[pri:0, instance:org.continuum.framework.testcases.TC0006@6a5fc7f7]" name="amet" is-config="true" duration-ms="295" started-at="2019-05-05T05:54:02Z" finished-at="2019-05-05T05:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amet -->
+      </class> <!-- org.continuum.framework.testcases.TC0006 -->
+      <class name="org.continuum.framework.testcases.TC0005">
+        <test-method status="PASS" signature="bmet()[pri:0, instance:org.continuum.framework.testcases.TC0005@5594a1b5]" name="bmet" is-config="true" duration-ms="18570" started-at="2019-05-05T05:52:13Z" finished-at="2019-05-05T05:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmet -->
+        <test-method status="PASS" signature="tC0005(java.lang.String)[pri:0, instance:org.continuum.framework.testcases.TC0005@5594a1b5]" name="tC0005" duration-ms="1447" started-at="2019-05-05T05:52:32Z" data-provider="Dp1" finished-at="2019-05-05T05:52:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC0005 -->
+        <test-method status="PASS" signature="amet()[pri:0, instance:org.continuum.framework.testcases.TC0005@5594a1b5]" name="amet" is-config="true" duration-ms="558" started-at="2019-05-05T05:52:33Z" finished-at="2019-05-05T05:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amet -->
+        <test-method status="PASS" signature="bmet()[pri:0, instance:org.continuum.framework.testcases.TC0005@5594a1b5]" name="bmet" is-config="true" duration-ms="13579" started-at="2019-05-05T05:52:34Z" finished-at="2019-05-05T05:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmet -->
+        <test-method status="PASS" signature="tC0005(java.lang.String)[pri:0, instance:org.continuum.framework.testcases.TC0005@5594a1b5]" name="tC0005" duration-ms="737" started-at="2019-05-05T05:52:47Z" data-provider="Dp1" finished-at="2019-05-05T05:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dell]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC0005 -->
+        <test-method status="PASS" signature="amet()[pri:0, instance:org.continuum.framework.testcases.TC0005@5594a1b5]" name="amet" is-config="true" duration-ms="287" started-at="2019-05-05T05:52:48Z" finished-at="2019-05-05T05:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amet -->
+        <test-method status="PASS" signature="bmet()[pri:0, instance:org.continuum.framework.testcases.TC0005@5594a1b5]" name="bmet" is-config="true" duration-ms="22451" started-at="2019-05-05T05:52:48Z" finished-at="2019-05-05T05:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmet -->
+        <test-method status="PASS" signature="tC0005(java.lang.String)[pri:0, instance:org.continuum.framework.testcases.TC0005@5594a1b5]" name="tC0005" duration-ms="4048" started-at="2019-05-05T05:53:11Z" data-provider="Dp1" finished-at="2019-05-05T05:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC0005 -->
+        <test-method status="PASS" signature="amet()[pri:0, instance:org.continuum.framework.testcases.TC0005@5594a1b5]" name="amet" is-config="true" duration-ms="279" started-at="2019-05-05T05:53:15Z" finished-at="2019-05-05T05:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amet -->
+      </class> <!-- org.continuum.framework.testcases.TC0005 -->
+    </test> <!-- My TestNG Tests -->
+  </suite> <!-- BDTSuite -->
+</testng-results>

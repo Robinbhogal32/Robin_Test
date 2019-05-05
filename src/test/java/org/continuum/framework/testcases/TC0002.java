@@ -7,7 +7,7 @@ import org.continuum.framework.pages.Login;
 
 public class TC0002  extends Common  {
 	
-	@Test
+	
 	public void tc2() throws InterruptedException
 	{
 		Login Log = new Login(driver);	
