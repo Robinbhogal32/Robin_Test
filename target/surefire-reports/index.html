@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-BDTSuite">
-              <span class="suite-name border-passed">BDTSuite</span>
+              <span class="suite-name border-skipped">BDTSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,36 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-BDTSuite" class="hide-methods passed suite-BDTSuite"> (hide)</a> <!-- hide-methods passed suite-BDTSuite -->
-                      <a href="#" panel-name="suite-BDTSuite" class="show-methods passed suite-BDTSuite"> (show)</a> <!-- show-methods passed suite-BDTSuite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-BDTSuite" class="hide-methods skipped suite-BDTSuite"> (hide)</a> <!-- hide-methods skipped suite-BDTSuite -->
+                      <a href="#" panel-name="suite-BDTSuite" class="show-methods skipped suite-BDTSuite"> (show)</a> <!-- show-methods skipped suite-BDTSuite -->
                     </span>
-                    <div class="method-list-content passed suite-BDTSuite">
+                    <div class="method-list-content skipped suite-BDTSuite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-BDTSuite" title="org.continuum.framework.testcases.TC0005" hash-for-method="tC0005(Samsung)">tC0005(Samsung)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BDTSuite" title="org.continuum.framework.testcases.TC0005" hash-for-method="tC0005">tC0005</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-BDTSuite" title="org.continuum.framework.testcases.TC0005" hash-for-method="tC0005(Iphone)">tC0005(Iphone)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-BDTSuite" title="org.continuum.framework.testcases.TC0005" hash-for-method="tC0005(Dell)">tC0005(Dell)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-BDTSuite" title="org.continuum.framework.testcases.TC0006" hash-for-method="tC0006">tC0006</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-BDTSuite -->
+                    </div> <!-- method-list-content skipped suite-BDTSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -132,53 +117,32 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-BDTSuite" class="panel BDTSuite">
-          <div class="suite-BDTSuite-class-passed">
+          <div class="suite-BDTSuite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">org.continuum.framework.testcases.TC0005</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tC0005(Samsung)">
-                  </a> <!-- tC0005(Samsung) -->
+                  <a name="tC0005">
+                  </a> <!-- tC0005 -->
                   <span class="method-name">tC0005</span>
-                  <span class="parameters">(Samsung)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tC0005(Iphone)">
-                  </a> <!-- tC0005(Iphone) -->
-                  <span class="method-name">tC0005</span>
-                  <span class="parameters">(Iphone)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tC0005(Dell)">
-                  </a> <!-- tC0005(Dell) -->
-                  <span class="method-name">tC0005</span>
-                  <span class="parameters">(Dell)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: F:\TestData.xls (The system cannot find the file specified)
+Caused by: java.io.FileNotFoundException: F:\TestData.xls (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at jxl.Workbook.getWorkbook(Workbook.java:213)
+	at jxl.Workbook.getWorkbook(Workbook.java:198)
+	at org.continuum.framework.testcases.TC0005.testdataexcel(TC0005.java:47)
+	... 25 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-BDTSuite-class-passed -->
-          <div class="suite-BDTSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.continuum.framework.testcases.TC0006</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="tC0006">
-                  </a> <!-- tC0006 -->
-                  <span class="method-name">tC0006</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-BDTSuite-class-passed -->
+          </div> <!-- suite-BDTSuite-class-skipped -->
         </div> <!-- panel BDTSuite -->
         <div panel-name="test-xml-BDTSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -200,6 +164,9 @@
       &lt;class name=&quot;org.continuum.framework.testcases.TC0004&quot;/&gt;
       &lt;class name=&quot;org.continuum.framework.testcases.TC0005&quot;/&gt;
       &lt;class name=&quot;org.continuum.framework.testcases.TC0006&quot;/&gt;
+      &lt;class name=&quot;org.continuum.framework.testcases.TC0007&quot;/&gt;
+      &lt;class name=&quot;org.continuum.framework.testcases.TC0008&quot;/&gt;
+      &lt;class name=&quot;org.continuum.framework.testcases.TC0009&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- My TestNG Tests --&gt;
 &lt;/suite&gt; &lt;!-- BDTSuite --&gt;
@@ -213,7 +180,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">My TestNG Tests (6 classes)</span>
+                <span class="test-name">My TestNG Tests (9 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,28 +206,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tC0006')
-data.setCell(0, 2, 'org.continuum.framework.testcases.TC0006')
-data.setCell(0, 3, 29400);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tC0005')
-data.setCell(1, 2, 'org.continuum.framework.testcases.TC0005')
-data.setCell(1, 3, 4048);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'tC0005')
-data.setCell(2, 2, 'org.continuum.framework.testcases.TC0005')
-data.setCell(2, 3, 1447);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'tC0005')
-data.setCell(3, 2, 'org.continuum.framework.testcases.TC0005')
-data.setCell(3, 3, 737);
+data.setCell(0, 1, 'tC0005')
+data.setCell(0, 2, 'org.continuum.framework.testcases.TC0005')
+data.setCell(0, 3, 0);
 window.suiteTableData['BDTSuite']= { tableData: data, tableDiv: 'times-div-BDTSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-BDTSuite">
               </div> <!-- times-div-BDTSuite -->
             </div> <!-- times-div -->
@@ -285,59 +240,6 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.continuum.framework.testcases.TC0005</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">bmet</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tC0005(Iphone)</span>
-                <span class="method-start">18570 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">amet</span>
-                <span class="method-start">20018 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">bmet</span>
-                <span class="method-start">20577 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tC0005(Dell)</span>
-                <span class="method-start">34156 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">amet</span>
-                <span class="method-start">34894 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">bmet</span>
-                <span class="method-start">35181 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tC0005(Samsung)</span>
-                <span class="method-start">57632 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">amet</span>
-                <span class="method-start">61680 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.continuum.framework.testcases.TC0006</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">bmet</span>
-                <span class="method-start">61960 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tC0006</span>
-                <span class="method-start">79732 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">amet</span>
-                <span class="method-start">109133 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

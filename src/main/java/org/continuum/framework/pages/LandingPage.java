@@ -3,6 +3,10 @@ package org.continuum.framework.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
@@ -64,6 +68,50 @@ public class LandingPage extends Myutils {
 		{
 
 			driver.findElement(By.xpath(rb.getString("TWAddtoCart_Xpath"))).click();
+			
+		}
+		
+		public void tWItemCart()
+		{
+
+			driver.findElement(By.xpath(rb.getString("TWItemCart_Xpath"))).click();
+			
+		}
+		
+		public void tWSearchCriteria()
+		{
+			
+			//Select S= new Select(driver.findElement(By.xpath("TWSearchCriteria")));
+			Select S = new Select (driver.findElement(By.xpath(".//*[@id='content']/div[1]/div[2]/select")));
+		    S.selectByValue("27");
+			
+			
+		}
+		
+		public void tWcheckout()
+		{
+
+			driver.findElement(By.xpath(rb.getString("TWCheckout_Xpath"))).click();
+			
+		}
+		
+		public void tWGuestAccount()
+		{
+
+		WebDriverWait wait = new WebDriverWait(driver, 50); 
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(".//*[@id='collapse-checkout-option']/div/div/div[1]/div[2]/label")));
+			
+			driver.findElement(By.xpath(rb.getString("TWGuestAccount_Xpath"))).click();
+			
+			
+		}
+		
+		public void tWContinueButton()
+		{
+
+			
+			driver.findElement(By.xpath(rb.getString("TWContinueButton_Xpath"))).click();
+			
 			
 		}
 }

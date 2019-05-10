@@ -8,12 +8,13 @@ import org.testng.annotations.Test;
 public class TC0006 extends Common {
 
 	//Add to Cart Item //
-	@Test
+	
+	
 	public void tC0006(){
 	
 		try{
 			LandingPage LP = new LandingPage(driver);
-			LP.tWSearchBox("Phone");
+			LP.tWSearchBox("Robin");
 			Thread.sleep(10000);
 			LP.tWSearchButton();
 			Thread.sleep(10000);
