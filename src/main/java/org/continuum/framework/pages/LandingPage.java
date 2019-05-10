@@ -61,6 +61,8 @@ public class LandingPage extends Myutils {
 		{
 
 			driver.findElement(By.xpath(rb.getString("TWSearchclick_Xpath"))).click();
+			JavascriptExecutor jse = (JavascriptExecutor)driver; // Scroll down //
+			jse.executeScript("window.scrollBy(0,250)", "");  // scroll bar //
 			
 		}
 		
