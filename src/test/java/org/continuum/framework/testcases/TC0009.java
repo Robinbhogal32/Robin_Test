@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class TC0009 extends Common{
 	
-	@Test
+	
 	public void TC009() throws InterruptedException, IOException
 	{
 		LandingPage LP = new LandingPage(driver);
