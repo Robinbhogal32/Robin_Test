@@ -9,12 +9,12 @@ public class TC0006 extends Common {
 
 	//Add to Cart Item //
 	
-	
+	@Test(groups = { "All", "P1" })
 	public void tC0006(){
 	
 		try{
 			LandingPage LP = new LandingPage(driver);
-			LP.tWSearchBox("Robin");
+			LP.tWSearchBox("Iphone");
 			Thread.sleep(10000);
 			LP.tWSearchButton();
 			Thread.sleep(10000);

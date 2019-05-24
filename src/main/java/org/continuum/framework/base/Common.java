@@ -14,7 +14,7 @@ public class Common {
 
 	public WebDriver driver;
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void bmet()
 	{
 		ResourceBundle rb= ResourceBundle.getBundle("Framework_Configuration");
@@ -47,7 +47,7 @@ public class Common {
 	
 	
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void amet()
 	{
 		driver.quit();

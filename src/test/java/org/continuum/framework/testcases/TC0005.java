@@ -23,7 +23,7 @@ public class TC0005 extends Common {
 
 	//Search multiple item //
 	
-	@Test(dataProvider="Dp1")
+	@Test(dataProvider="All")
 	public void tC0005(String a) 
 	{
 		LandingPage LP = new LandingPage(driver);
@@ -40,7 +40,7 @@ public class TC0005 extends Common {
 		return arr;
 	} */
 	
-@DataProvider(name="Dp1")
+@DataProvider(name="All")
 	public Object[][] testdataexcel() throws BiffException, IOException
 	{
 		File f = new File("F:\\TestData.xls");

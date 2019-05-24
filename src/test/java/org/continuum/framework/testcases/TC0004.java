@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class TC0004 extends Common {
 
 	//Search single item //
-	@Test
+
 	public void tC0004() throws InterruptedException{
 	
 		try{
