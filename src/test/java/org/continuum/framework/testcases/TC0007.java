@@ -22,7 +22,7 @@ public class TC0007 extends Common {
 		LP.tWAddtoCart();
 		Thread.sleep(5000);
 		LP.tWItemCart();
-		TakeSnapshot.getScreenshot(driver, "abc");
+		//TakeSnapshot.getScreenshot(driver, "abc");
 	}
 
 }

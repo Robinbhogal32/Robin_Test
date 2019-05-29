@@ -26,7 +26,7 @@ public class TC0009 extends Common{
 		LP.tWcheckout();
 		LP.tWGuestAccount();
 		LP.tWContinueButton();
-		TakeSnapshot.getScreenshot(driver, "TC0009");
+		//TakeSnapshot.getScreenshot(driver, "TC0009");
 	}
 
 }

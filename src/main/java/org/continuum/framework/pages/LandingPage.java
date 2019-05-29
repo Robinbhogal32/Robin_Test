@@ -61,8 +61,8 @@ public class LandingPage extends Myutils {
 		{
 
 			driver.findElement(By.xpath(rb.getString("TWSearchclick_Xpath"))).click();
-			JavascriptExecutor jse = (JavascriptExecutor)driver; // Scroll down //
-			jse.executeScript("window.scrollBy(0,250)", "");  // scroll bar //
+		JavascriptExecutor jse = (JavascriptExecutor)driver; // Scroll down //
+	  jse.executeScript("window.scrollBy(0,650)", "");  // scroll bar //
 			
 		}
 		
@@ -70,6 +70,8 @@ public class LandingPage extends Myutils {
 		{
 
 			driver.findElement(By.xpath(rb.getString("TWAddtoCart_Xpath"))).click();
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			 js.executeScript("window.scrollBy(0,-500)", "");
 			
 		}
 		
